@@ -37,13 +37,17 @@ nder-System/
 
 ---
 
-##  Results & Insights  
+## Results & Insights  
+
+- **Kaggle Competition**: Achieved **0.8895 RMSE on the public leaderboard (Top 20%)** and  
+  **0.8803 RMSE on the private leaderboard (final hidden test set)**.  
 - **Baselines**: Simple global/user/item averages give a useful benchmark.  
 - **SVD**: Captures hidden patterns in user–item interactions, reducing RMSE significantly.  
 - **Hybrid**: The stacked model outperforms individual models, balancing accuracy and generalisation.  
 - **Insights**:  
   - Frequent users/items drive recommendation accuracy.  
   - Cold-start cases remain challenging → hybrid helps smooth predictions.  
+
 
 ---
 
